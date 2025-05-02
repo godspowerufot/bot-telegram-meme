@@ -1,0 +1,20 @@
+{
+  "name": "veniceai-telegram-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+"  type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot":"node index.mjs"
+  },
+  "keywords": [],
+  "author": "godspowerufot",
+  "license": "ISC",
+  "description": "this is a telegram bot for crucial bot response",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.83.0",
+    "telegraf": "^4.16.3"
+  }
+}
